@@ -1,0 +1,3 @@
+﻿l_english:
+ trait_custom_story:0 "Story"
+ trait_custom_story_desc:0 "[ROOT.Var('custom_story_part_0').GetFlagName]\n[ROOT.Var('custom_story_part_1').GetFlagName]\n[ROOT.Var('custom_story_part_2').GetFlagName]\n[ROOT.Var('custom_story_part_3').GetFlagName]\n[ROOT.Var('custom_story_part_4').GetFlagName]\n[ROOT.Var('custom_story_part_5').GetFlagName]\n[ROOT.Var('custom_story_part_6').GetFlagName]\n[ROOT.Var('custom_story_part_7').GetFlagName]\n[ROOT.Var('custom_story_part_8').GetFlagName]\n[ROOT.Var('custom_story_part_9').GetFlagName]"

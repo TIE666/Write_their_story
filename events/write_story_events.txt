@@ -1,0 +1,218 @@
+﻿write_story_events.0001 = {
+
+	title = write_story_events.0001.t
+	left_portrait = scope:recipient
+
+	immediate = {
+		scope:recipient = {
+			save_as_scope = rp
+		}
+	}
+	
+	widgets = {
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_0
+					default = {
+						localization_key = custom_story_part_0_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_1
+					default = {
+						localization_key = custom_story_part_1_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_2
+					default = {
+						localization_key = custom_story_part_2_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_3
+					default = {
+						localization_key = custom_story_part_3_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_4
+					default = {
+						localization_key = custom_story_part_4_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_5
+					default = {
+						localization_key = custom_story_part_5_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_6
+					default = {
+						localization_key = custom_story_part_6_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_7
+					default = {
+						localization_key = custom_story_part_7_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_8
+					default = {
+						localization_key = custom_story_part_8_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+		widget = {
+			gui = "event_window_widget_write_story"
+			container = "custom_widgets_container"
+			controller = {
+				type = text
+				data = {
+					variable = custom_story_part_9
+					default = {
+						localization_key = custom_story_part_9_loc
+						trigger = {
+							has_trait = custom_story_trait
+						}
+					}
+				}	
+			}
+			setup_scope = {
+				scope:recipient = { save_scope_as = text_target }
+			}
+		}
+	}
+
+	option = {
+		name = write_story_events.a # save story and add trait
+		scope:recipient = {
+			add_trait = custom_story_trait
+		}
+	}
+
+	option = {
+		name = write_story_events.b # remove trait and delete story
+		scope:recipient = {
+			remove_trait = custom_story_trait
+		}
+	}
+}

@@ -1,0 +1,24 @@
+﻿vbox = {
+	name = "event_window_widget_write_story"
+	layoutpolicy_horizontal = expanding
+	margin = { 5 0 }
+	spacing = 10
+
+	editbox = {
+		name = "enter_text" # name referenced in code
+		size = { 400 25 }
+		alwaystransparent = no
+		focuspolicy = all
+		multiline = no
+		align = left|top
+		default_format = "#high"
+		ontextedited = "[EventWindowWidgetEnterText.OnEdit]"
+
+		using = Background_Area_Border
+		background = {
+			using = Background_Area
+		}
+	}
+
+	expand = {}
+}

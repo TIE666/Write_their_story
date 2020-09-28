@@ -1,0 +1,23 @@
+﻿custom_story_trait = {
+
+	index = 3411
+	minimum_age = 0
+
+	name = {
+		first_valid = {
+			desc = trait_custom_story
+		}
+	}
+
+	desc = {
+		first_valid = {
+			desc = trait_custom_story_desc
+		}
+	}
+
+	icon = {
+		first_valid = {
+			desc = write_story.dds
+		}
+	}
+}

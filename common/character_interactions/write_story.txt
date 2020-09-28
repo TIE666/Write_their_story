@@ -1,0 +1,25 @@
+﻿write_story = {
+
+	category = interaction_category_hostile
+	icon = "gfx\interface\icons\character_interactions\write_story.dds"
+	desc = write_story_desc
+	use_diplomatic_range = no
+
+	ai_will_do = 0
+	ai_frequency = 0
+
+	is_shown = {
+		scope:actor = {
+		    is_ai = no
+		}
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			trigger_event = {
+				id = write_story_events.0001
+			}
+		}
+	}
+}
